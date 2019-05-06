@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+
+header {
+	position: absolute;
+	padding: 32px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	
+}
+
+nav {
+	opacity: .90;
+	z-index: 400;
+  	top: 0;
+  	left: 0;
+  	background: #fff;
+  	position: relative;
+  	display: block !important;
+  	float: right;
+  	width: 30%;
+  	padding: .75em 1em 0 0;
+  	height: 1.5em;
+}
+
+body {
+	background-color:#FFFFFF;
+	text-align: center;
+	padding: 20px 20px 50px 20px;
+	background-image: url(Images/field.png); 
+
+	
+	
+}
+
+.title {
+	padding: 20px 20px 50px 20px;
+	text-align: center;
+	color:#F35C03; 
+	
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	color:#7C2503
+}
+.col {
+	width: 100%;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.nerd {
+	display: inline-block;
+}
+
+table, tr, th {
+	
+	align-content: center;
+	
+	padding: 5px;
+	margin: 1px;
+	
+}
+
+.NFL {
+	max-height: 1600px;
+	min-height: 800px;
+	max-width: 1600px;
+	min-width: 800px;
+	column-width: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	font-weight: bold;
+	border-color:#FFFFFF;
+}
